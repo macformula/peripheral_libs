@@ -1,12 +1,12 @@
 /*
- * adc.h
+ * adc_lib.h
  *
  *  Created on: Oct 30, 2022
  *      Authors: Samuel Parent,
  */
 
-#ifndef INC_ADC_H_
-#define INC_ADC_H_
+#ifndef INC_ADC_LIB_H_
+#define INC_ADC_LIB_H_
 
 /*----------INCLUDES----------*/
 
@@ -97,4 +97,4 @@ ADC_Ret_et Get_Chan_Averages_Scaled(ADC_st* adc, double averages[], uint16_t siz
 // Define scaling functions
 double Get_Voltage_Conversion(uint16_t raw, uint16_t size);
 
-#endif /* INC_ADC_H_ */
+#endif /* INC_ADC_LIB_H_ */
