@@ -1,5 +1,5 @@
 /*
- * adc.c
+ * adc_lib.c
  *
  *  Created on: Oct 30, 2022
  *      Authors: Samuel Parent,
@@ -7,7 +7,7 @@
 
 /*----------INCLUDES----------*/
 
-#include "adc.h"
+#include "adc_lib.h"
 
 /*----------PRIVATE FUNCTION DEFINITIONS----------*/
 
